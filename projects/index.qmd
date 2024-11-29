@@ -1,0 +1,20 @@
+---
+title: "Proyectos de Investigación"
+listing:
+  contents: projects
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  image-height: 250px
+  grid-item-border: true
+---
+
+### Redes personales y capital social de mujeres cuidadoras
+*Fondecyt Regular N°1230437*  
+Tesista doctoral sobre trayectorias de cuidado infantil.
+
+### MICARE
+*Millennium Institute for Care Research*  
+Investigadora doctoral

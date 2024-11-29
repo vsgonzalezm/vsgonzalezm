@@ -1,0 +1,26 @@
+---
+title: "Valentina González Madariaga"
+image: profile.jpg
+about:
+  id: hero-heading
+  template: jolla # trestles,solana, marquee, broadside
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/vspgm
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/valentina-gonzález-madariaga/
+    - icon: github
+      text: Github
+      href: https://github.com/vsgonzalezm
+---
+
+::: {#hero-heading}
+
+I am a PhD student in Sociology at Pontificia University Católica de Chile. 
+
+My work is about Social Inequalities especially in Gender inequality,
+
+:::

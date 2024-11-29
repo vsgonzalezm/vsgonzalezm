@@ -1,0 +1,193 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+/* Paleta de colores inspirada en Wes Anderson */
+:root {
+  --color-primary: #DAA89B;    /* Rosa salmón suave */
+  --color-secondary: #A4CABC;  /* Verde jade pastel */
+  --color-accent: #F2994E;     /* agua */
+  --color-background: #FDF8F4; /* Crema cálido */
+  --color-text: #2D232E;       /* Casi negro con toque violeta */
+  --color-mustard: #E6B65C;    /* Amarillo mostaza suave */
+  --color-dusty-blue: #94A7B4; /* Azul polvoriento */
+}
+
+/* Estilos generales */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Space Grotesk', 'Futura PT', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+/* Encabezados con estilo distintivo */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', 'Futura PT', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--color-accent);
+}
+
+h1 { 
+  font-size: 2.8em; 
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--color-mustard);
+  padding-bottom: 0.3em;
+}
+
+h2 { 
+  font-size: 2em;
+  color: var(--color-primary);
+}
+
+h3 { 
+  font-size: 1.75em;
+  color: var(--color-dusty-blue);
+}
+
+/* Enlaces estilizados */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: var(--color-background) !important;
+  border-bottom: 2px solid var(--color-mustard);
+}
+
+.navbar-brand {
+  color: var(--color-accent) !important;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--color-text) !important;
+  transition: all 0.3s ease;
+  margin: 0 0.5em;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mustard);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Cards con estilo cinematográfico */
+.card {
+  background-color: white;
+  border: none;
+  border-radius: 0;  /* Bordes rectos, estilo Wes Anderson */
+  box-shadow: 8px 8px 0 rgba(135, 103, 123, 0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--color-primary);
+}
+
+.card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0 rgba(135, 103, 123, 0.2);
+}
+
+/* Tablas */
+table {
+  background-color: white;
+  border: 2px solid var(--color-accent);
+  border-radius: 0;
+}
+
+thead {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+
+/* Bloques de código */
+pre {
+  background-color: #F7F3EB !important;
+  border-left: 4px solid var(--color-mustard);
+  border-radius: 0;
+}
+
+/* TOC (Tabla de contenidos) */
+#TOC {
+  background-color: white;
+  border: none;
+  border-left: 4px solid var(--color-secondary);
+  padding: 1.5em;
+}
+
+/* Botones */
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+  border: none;
+  box-shadow: 4px 4px 0 var(--color-mustard);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--color-mustard);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-background);
+  border-top: 2px solid var(--color-mustard);
+  padding: 2em 0;
+  margin-top: 4em;
+  text-align: center;
+}
+
+/* Estilo para las pestañas de idioma */
+.nav-tabs {
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.nav-tabs .nav-link {
+  color: var(--color-text);
+  border: none;
+  padding: 0.5rem 2rem;
+  margin-right: 0.5rem;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  color: white;
+  background-color: var(--color-accent);
+  border: none;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+  background-color: var(--color-secondary);
+  border: none;
+}
+
+

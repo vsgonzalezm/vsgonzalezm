@@ -1,0 +1,22 @@
+---
+title: "Blog"
+listing:
+  contents: posts/**/index.qmd
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, reading-time, description, categories]
+  image-height: 200px
+  image-placeholder: placeholder.jpg
+  feed: true
+page-layout: full
+---
+
+En este espacio comparto reflexiones sobre:
+
+- Metodología de investigación social
+- Análisis de desigualdades y género
+- Experiencias académicas y de investigación
+- Notas sobre análisis de datos y R

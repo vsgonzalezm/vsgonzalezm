@@ -1,0 +1,60 @@
+---
+title: "Sobre mí | About me"
+image: yo.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/vspgm
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/valentina-gonzález-madariaga/
+    - icon: github
+      text: Github
+      href: https://github.com/vsgonzalezm
+---
+
+::: {.panel-tabset}
+## Español
+
+### Perfil 
+Soy candidata a Doctora en Sociología por la Pontificia Universidad Católica de Chile, con una formación interdisciplinar que combina filosofía y sociología. Mi investigación se centra en el estudio de desigualdades sociales de género y estratificación social.
+
+### Formación Académica
+- **Doctorado en Sociología** (2020-Presente)  
+  Pontificia Universidad Católica de Chile
+- **Magíster en Sociología** (2020-2022)  
+  Pontificia Universidad Católica de Chile
+- **Magíster en Ciencias Sociales** (2015-2017)  
+  Universidad de Chile
+- **Licenciatura en Filosofía** (2010-2014)  
+  Universidad de Chile
+
+### Áreas de Especialización
+- Métodos cuantitativos y cualitativos
+- Estudios de género y cuidados
+- Desigualdad y estratificación social
+
+## English
+
+### Profile
+I am a Ph.D. candidate in Sociology at Pontificia Universidad Católica de Chile, with an interdisciplinary background combining philosophy and sociology. My research focuses on the study of social inequalities, gender, and social stratification.
+
+### Academic Background
+- **Ph.D. in Sociology** (2020-Present)  
+  Pontificia Universidad Católica de Chile
+- **Master's in Sociology** (2020-2022)  
+  Pontificia Universidad Católica de Chile
+- **Master's in Social Sciences** (2015-2017)  
+  Universidad de Chile
+- **Bachelor's in Philosophy** (2010-2014)  
+  Universidad de Chile
+
+### Areas of Expertise
+- Quantitative and qualitative methods
+- Gender and care studies
+- Inequality and social stratification
+:::

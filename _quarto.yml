@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  page-navigation: true
+  title: "Valentina Gonzalez Madariaga"
+  page-footer:
+    left: "&copy; Copyright 2024, Valentina González Madariaga"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+      - href: blog/index.qmd
+        text: Blog
+#format:
+#  html:
+#    theme: cosmo
+#    css: styles.css
+#    mainfont: 'Poppins'  # Una fuente moderna y limpia
+#    toc: true
+format:
+  html:
+    theme: lux
+    css: styles.css
+    mainfont: 'Futura PT'  # Futura es una fuente icónica en las películas de Wes Anderson
+    link-external-newwindow: true
