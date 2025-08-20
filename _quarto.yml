@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: docs
+
 website:
+  site-url: https://valentina-gonzalez.netlify.app
   page-navigation: true
   title: "Valentina Gonzalez Madariaga"
   page-footer:
@@ -11,21 +13,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: projects/index.qmd
-        text: Projects
       - href: about.qmd
         text: About
+      - href: research.qmd
+        text: Research
+      - href: projects/index.qmd
+        text: Projects
       - href: blog/index.qmd
         text: Blog
-#format:
-#  html:
-#    theme: cosmo
-#    css: styles.css
-#    mainfont: 'Poppins'  # Una fuente moderna y limpia
-#    toc: true
+
 format:
   html:
     theme: lux
     css: styles.css
-    mainfont: 'Futura PT'  # Futura es una fuente icónica en las películas de Wes Anderson
+    mainfont: "Futura PT"
     link-external-newwindow: true

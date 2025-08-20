@@ -1,0 +1,8 @@
+---
+title: "First post: a small visualization plan"
+date: 2025-08-20
+description: "Kickoff for a series of short posts on gender and care."
+categories: [blog]
+---
+
+This is a placeholder for my first post. Soon: a short R-based visualization on care and paid work.

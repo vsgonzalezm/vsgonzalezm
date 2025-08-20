@@ -153,12 +153,16 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
@@ -206,7 +210,12 @@ Tesista doctoral sobre trayectorias de cuidado infantil.</p>
 <section id="micare" class="level3">
 <h3 class="anchored" data-anchor-id="micare">MICARE</h3>
 <p><em>Millennium Institute for Care Research</em><br>
-Investigadora doctoral</p>
+Investigadora doctoral.</p>
+</section>
+<section id="efectos-de-la-maternidad-y-la-fertilidad-potencial-en-procesos-de-toma-de-decisión-en-el-mercado-laboral-en-chile" class="level3">
+<h3 class="anchored" data-anchor-id="efectos-de-la-maternidad-y-la-fertilidad-potencial-en-procesos-de-toma-de-decisión-en-el-mercado-laboral-en-chile">Efectos de la maternidad y la fertilidad potencial en procesos de toma de decisión en el mercado laboral en Chile</h3>
+<p><em>Fondecyt de Iniciación N°11251627</em><br>
+Asistente de investigación.</p>
 
 
 
@@ -310,7 +319,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/valentina-gonzalez\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

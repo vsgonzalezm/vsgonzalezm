@@ -190,4 +190,10 @@ pre {
   border: none;
 }
 
+/* Imagen de perfil en About */
+.quarto-about-trestles img {
+  width: 240px;    /* ajusta el ancho de la imagen */
+  height: auto;    /* mantiene proporción */
+  border-radius: 50%;  /* opcional: foto redondeada */
+}
 
