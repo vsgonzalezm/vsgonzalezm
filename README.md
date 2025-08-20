@@ -1,4 +1,4 @@
-# Hi there ::octocat:
+# Hi there :octocat:
 
 I am a PhD candidate in Sociology currently in the final stage of my doctoral studies.  
 My research focuses on social inequalities with a particular emphasis on care work and its intersections with paid work trajectories.  
